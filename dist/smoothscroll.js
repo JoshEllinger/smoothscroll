@@ -21,11 +21,7 @@
      */
     var Element = w.HTMLElement || w.Element;
     var SCROLL_TIME = 468;
-    
-    // return when scrollIntoView interface is supported
-    if ('scrollIntoView' in Element.prototype) {
-      return;
-    }
+
 
     /*
      * object gathering original scroll methods
