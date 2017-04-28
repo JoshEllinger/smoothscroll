@@ -1,4 +1,6 @@
-# Smooth Scroll behavior polyfill
+# Smooth Scroll behavior polyfill Fork for better targetting
+
+This fork also polyfills for firefox, untill scrollIntoView is fixed there.
 
 The [Scroll Behavior specification](https://developer.mozilla.org/en/docs/Web/CSS/scroll-behavior) has been introduced as an extension of the `Window` interface to allow for the developer to opt in to native smooth scrolling. To date this has only been implemented in _Firefox_.
 
@@ -9,10 +11,10 @@ See it in action https://iamdustan.github.io/smoothscroll
 
 Download the distribution file from this repository and include it in your project.
 
-You can also find it in **npm** as **smoothscroll-polyfill** or **bower** as **smoothscroll**.
+You can also find it in **npm** as **smoothscroll-polyfill-better-tagetting** or **bower** as **smoothscroll**.
 
 ```js
-require('smoothscroll-polyfill').polyfill();
+require('smoothscroll-polyfill-better-tagetting').polyfill();
 ```
 
 _Requires requestAnimationFrame polyfill for browsers which don't support it!_
