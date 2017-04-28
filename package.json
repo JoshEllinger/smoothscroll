@@ -1,26 +1,18 @@
 {
-  "title": "smoothscroll",
-  "name": "smoothscroll-polyfill",
+  "title": "smoothscroll-polyfill Fork",
+  "name": "smoothscroll-polyfill-better-targetting",
   "version": "0.3.5",
   "author": {
-    "name": "Dustan Kasten",
-    "email": "dustan.kasten@gmail.com",
-    "url": "https://iamdustan.com"
+    "name": "Josh Ellinger",
+    "email": "josh.ellinger@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Jeremias Menichelli",
-      "email": "jmenichelli@gmail.com",
-      "url": "https://jeremenichelli.github.io"
-    }
-  ],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat-util": "^0.5.5",
     "gulp-eslint": "^2.0.0",
     "gulp-load-plugins": "^1.2.4"
   },
-  "description": "Polyfill for smooth scroll behavior",
+  "description": "Polyfill for smooth scroll behavior. Fork does a better job of ",
   "main": "dist/smoothscroll.js",
   "scripts": {
     "test": "gulp lint",
@@ -28,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamdustan/smoothscroll.git"
+    "url": "git+https://github.com/JoshEllinger/smoothscroll.git"
   },
   "keywords": [
     "smooth",
@@ -36,10 +28,9 @@
     "CSSOM",
     "polyfill"
   ],
-  "copyright": 2016,
+  "copyright": 2017,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamdustan/smoothscroll/issues"
-  },
-  "homepage": "https://iamdustan.github.io/smoothscroll"
+    "url": "https://github.com/JoshEllinger/smoothscroll/issues"
+  }
 }
