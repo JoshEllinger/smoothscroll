@@ -10,16 +10,16 @@
 
   // polyfill
   function polyfill() {
-    // return when scrollBehavior interface is supported
-    if ('scrollBehavior' in d.documentElement.style) {
-      return;
-    }
-
     /*
      * globals
      */
     var Element = w.HTMLElement || w.Element;
     var SCROLL_TIME = 468;
+    
+    // return when scrollIntoView interface is supported
+    if ('scrollIntoView' in Element.prototype) {
+      return;
+    }
 
     /*
      * object gathering original scroll methods
