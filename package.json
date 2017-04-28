@@ -12,7 +12,7 @@
     "gulp-eslint": "^2.0.0",
     "gulp-load-plugins": "^1.2.4"
   },
-  "description": "Polyfill for smooth scroll behavior. Fork does a better job of ",
+  "description": "Polyfill for smooth scroll behavior. Fork removes browser checking",
   "main": "dist/smoothscroll.js",
   "scripts": {
     "test": "gulp lint",
